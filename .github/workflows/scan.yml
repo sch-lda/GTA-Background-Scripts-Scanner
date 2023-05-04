@@ -2,8 +2,6 @@ name: bgscript update check
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '*/10 * * * *' # run every 30 minutes 
 
 jobs:
   scan:
